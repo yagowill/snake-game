@@ -1,11 +1,28 @@
+* {
+  box-sizing: border-box;
+}
 body {
- height: 95vh;
- width: 95vw;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center; 
+  background-color: rgba(0, 43, 0, 0.87);
+
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; 
+  padding-bottom: 0px;
 }
 h1 {
-  color: rgb(41, 87, 41);
+  color: #fff;
+  margin-bottom: 5px;
+}
+canvas {
+  border-radius: 15px;
+  margin-bottom: 19px;
+}
+p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #fff;
 }
